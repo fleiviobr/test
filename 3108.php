@@ -7,7 +7,7 @@ while (0 < $n) {
     $space = 0;
     $x = trim(readline());
     $y = "";
-    for ($i = 0; $i < strlen($x); $i++) {
+    for ($i = 0; $i < strlen($x); $i++) { 
         if ($x[$i] === " "){
             $space++;
         }
